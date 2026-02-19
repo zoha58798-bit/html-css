@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #f4f4ff, #c9c3ff);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+}
+
+.left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.features {
+  margin-bottom: 20px;
+}
+
+.features span {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.btn {
+  padding: 12px 25px;
+  background-color: #4c4cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #3737d6;
+}
+
+.rating {
+  font-size: 14px;
+  color: #333;
+}
+
+.right {
+  width: 45%;
+  position: relative;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  position: absolute;
+}
+
+.main-card {
+  width: 300px;
+  top: 0;
+  right: 0;
+}
+
+.small-card {
+  width: 200px;
+  top: 150px;
+  left: 0;
+}
+
+.option-card {
+  width: 180px;
+  bottom: 0;
+  right: 50px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
