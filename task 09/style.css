@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr; 
+    grid-template-rows: 200px  100px 1fr ;
+}
+
+.left{
+    background-color: red;
+}
+
+.right{
+    background-color: blue;
+}
